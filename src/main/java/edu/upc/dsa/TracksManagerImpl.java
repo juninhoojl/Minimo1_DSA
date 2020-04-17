@@ -7,6 +7,8 @@ import java.util.List;
 import org.apache.log4j.Logger;
 
 public class TracksManagerImpl implements TracksManager {
+
+
     private static TracksManager instance;
     protected List<Track> tracks;
     final static Logger logger = Logger.getLogger(TracksManagerImpl.class);
